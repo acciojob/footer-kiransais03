@@ -1,1 +1,48 @@
 /* your code here */
+.top {
+	display: flex;
+	justify-content: space-between;
+	background-color: black;
+  }
+
+.logo-details {
+	display: flex;
+	flex:1;
+	justify-content: space-between;
+	color: white;
+	padding: 10px;
+}
+
+ul {
+	list-style:none;
+}
+
+.media-icons ul{
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+}
+
+img {
+	width:3vw;
+	height:6vh;
+	padding: 20px;
+}
+
+.bottom-details {
+	display: flex;
+	justify-content: space-around;
+	background-color: black;
+	color: white;
+}
+
+.foot {
+	display: flex;
+	justify-content: space-between;
+	background-color: lightslategray;
+	padding: 15px;
+}
+
+a {
+	color: white;
+}
