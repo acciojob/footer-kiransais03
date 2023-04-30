@@ -1,48 +1,47 @@
 /* your code here */
-.top {
-	display: flex;
-	justify-content: space-between;
-	background-color: black;
-  }
+*{
+	 list-style:none;
+}
+footer {
+  background-color: #222;
+  color: #fff;
 
-.logo-details {
-	display: flex;
-	flex:1;
-	justify-content: space-between;
-	color: white;
-	padding: 10px;
+}
+h1{
+	
 }
 
-ul {
-	list-style:none;
+.first{
+	display:flex;
+	justify-content:space-between;
+	
 }
-
 .media-icons ul{
-	list-style: none;
-	display: flex;
-	justify-content: space-around;
+	display:flex;
+	justify-content:inline-block;
+	margin:30px;
 }
+li {
+  margin: 10px;
 
-img {
-	width:3vw;
-	height:6vh;
-	padding: 20px;
 }
+.heading{
+	margin:30px;
 
-.bottom-details {
-	display: flex;
-	justify-content: space-around;
-	background-color: black;
-	color: white;
 }
-
-.foot {
-	display: flex;
-	justify-content: space-between;
-	background-color: lightslategray;
-	padding: 15px;
+.link-boxes{
+	display:flex;
+	justify-content:space-between;
 }
-
-a {
-	color: white;
+.third{
+	margin-top:20px;
+	padding:20px;
+	display:flex;
+	justify-content:space-between;
+	background-color:gray;
+	
+}
+.media-icons{
+	display:flex;
+	justify-content:inline;
 }
